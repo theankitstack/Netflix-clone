@@ -323,10 +323,11 @@ footer select {
 
 @media screen and (max-width: 450px) {
 
-    *body {
-        width: 100% !important ;
-        overflow: hidden !important;
+    body {
+        width: 100% !important;
+        overflow-x: hidden !important;
     }
+
     hr {
         width: 100vw;
         margin-left: 0;
@@ -348,11 +349,8 @@ footer select {
     }
 
     #headline h1 {
-        /* width: 588px;
-        height: 148px;
-        font-weight: bold;
-        margin-left: 150px; */
-        font-size: 48px;
+        font-size: 40px;
+        margin-left: 29px;
     }
 
     #headline h4 {
